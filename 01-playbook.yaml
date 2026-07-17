@@ -3,5 +3,5 @@
 
   tasks:
    - name: ping the web erver
-      ansible.builtin.ping:
+      ansible.builtin.ping: 
   
