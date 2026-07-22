@@ -15,6 +15,6 @@
   tasks:
    - name: print name
      vars:
-     NAME: "ansible from TASK"
+      NAME: "ansible from TASK"
      ansible.builtin.debug:
       msg: "hi {{NAME}}"    
