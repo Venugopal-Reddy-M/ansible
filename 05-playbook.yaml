@@ -8,6 +8,6 @@
   tasks:
     - name: Print file level variables
       vars:
-        course: "ansible"
+        course: ansible
       ansible.builtin.debug:
         msg: "Course is: {{ course }}, Trainer is: {{ Trainer }}"
