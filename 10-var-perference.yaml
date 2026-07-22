@@ -1,0 +1,20 @@
+- name: variables preference
+  hosts: local
+  connection: local
+  # this is variable level
+  vars:
+   NAME: "Ansible from PLAY"
+  # variables passed to the file/stored to the file
+  vars_files:
+  - course.yaml 
+  # variables passed to prompt
+  vars_prompt:
+  - name: NAME
+    prompt: please enter name
+    private: false
+  tasks:
+   - name: print name
+     vars:
+     NAME: "ansible from TASK"
+     ansible.builtin.debug:
+      msg: "hi {{NAME}}"    
