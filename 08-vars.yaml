@@ -1,0 +1,9 @@
+# Args_level passed to the ansible
+
+- name: variables from Args_level
+  hosts: local
+  connection: local
+  tasks:
+   - name: print variables from Args_level
+     ansible.builtin.debug:
+      msg: "HI {{NAME}}, Good mrg"
