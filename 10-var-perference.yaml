@@ -8,7 +8,7 @@
   # vars_files:
   # - course.yaml 
   # variables passed to prompt
-  vars_prompt:
+  # vars_prompt:
   # - name: NAME
   #   prompt: please enter name
   #   private: false
