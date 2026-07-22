@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   # this is variable level
-  vars:
-   NAME: "Ansible from PLAY"
+  # vars:
+  #  NAME: "Ansible from PLAY"
   # variables passed to the file/stored to the file
   # vars_files:
   # - course.yaml 
