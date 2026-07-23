@@ -1,0 +1,12 @@
+#in ansible conditions keyword is 'when'
+
+- name: denmo on conditions
+  hosts: local
+  connection: local
+  vars:
+   IS_LIVE: false
+  tasks:
+  - name: check live or not
+    ansible.builtin.debug:
+     msg: "yes IS_LIVE"
+    when:IS_LIVE 
