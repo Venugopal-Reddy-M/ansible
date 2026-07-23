@@ -1,4 +1,4 @@
-# in ansible conditions keyword is 'when'
+
 
 - name: denmo on conditions
   hosts: local
