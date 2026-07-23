@@ -1,7 +1,7 @@
 - name: install and remove the packages
   hosts: local
   connection: local
-  become: yes
+  become: yes 
   tasks:
   - name: install and remove package
     ansible.builtin.package:
