@@ -5,7 +5,7 @@
   - name: print facts
     ansible.builtin.debug:
      msg: "{{ansible_facts}}"
-    #red hat
+    #redhat
   - name: check redhat or not
     ansible.builtin.debug:
      msg:"yes package manager is redhat"
