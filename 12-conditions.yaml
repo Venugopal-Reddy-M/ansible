@@ -1,4 +1,4 @@
-#in ansible conditions keyword is 'when'
+# in ansible conditions keyword is 'when'
 
 - name: denmo on conditions
   hosts: local
@@ -9,4 +9,4 @@
   - name: check live or not
     ansible.builtin.debug:
      msg: "yes IS_LIVE"
-    when:IS_LIVE 
+    when: IS_LIVE 
